@@ -26,7 +26,7 @@ type Node struct {
 type Edge struct {
 	Destination	*Node
 	Weight		float64
-	Len			int
+	Len		int
 }
 
 /**
