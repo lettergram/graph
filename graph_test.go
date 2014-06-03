@@ -4,7 +4,6 @@ import ( "testing" )
 
 
 // Tests graph construction
- 
 func TestGraphConstruction(t *testing.T) {
 
   str := "TEST"
@@ -21,7 +20,6 @@ func TestGraphConstruction(t *testing.T) {
 
 
 // Tests edge creation
- 
 func TestEdgeCreation (t *testing.T) {
 
   g := Graph{}
@@ -42,7 +40,6 @@ func TestEdgeCreation (t *testing.T) {
 
 
 // Tests adding an edge
-
 func TestAddEdge (t *testing.T) {
 
   g := Graph{}
@@ -62,7 +59,6 @@ func TestAddEdge (t *testing.T) {
 
 
 // Tests adding a node
-
 func TestAddNode (t *testing.T) {
   
   g := Graph{}
@@ -80,6 +76,7 @@ func TestAddNode (t *testing.T) {
 type test struct {
         Value int
 }
+
 func TestDijkstra (t *testing.T){
 
   g := Graph{}
